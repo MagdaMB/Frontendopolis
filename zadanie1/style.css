@@ -1,0 +1,23 @@
+body {
+	background-color: green;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	margin: auto;
+}
+
+table, th, td {
+	border: 2px solid black;
+}
+
+th, td {
+	padding: 20px;
+}

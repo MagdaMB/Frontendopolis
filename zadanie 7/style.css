@@ -1,0 +1,23 @@
+body {
+	background-color: grey;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+button {
+	font-size: 20px;
+	font-weight: bold;
+	width: 150px;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+
+.dis {
+	font-size: 14px;
+	display: block;
+}

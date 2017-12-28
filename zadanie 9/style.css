@@ -1,0 +1,25 @@
+body {
+	background-color: grey;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+button {
+	padding: 8px;
+	margin: 10px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	font-weight: bold;
+}
+
+input {
+	border-radius: 5px;
+	border: 1px solid grey;
+	padding: 8px;
+	margin: 10px;
+}

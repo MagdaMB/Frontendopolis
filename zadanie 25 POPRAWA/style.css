@@ -1,0 +1,35 @@
+body {
+	background-color: grey;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+
+h1 {
+	text-align: center;
+}
+
+.active li:nth-of-type(odd) {
+	background-color: #4d4d4d;
+}
+
+.active li:nth-of-type(even) {
+	background-color: #f2f2f2;
+}
+
+.first {
+	color: green;
+}
+
+.previous {
+	color: orange;
+}
+
+.next {
+	color: blue;
+}
+
+.reset {
+	color: black;
+}
+
+

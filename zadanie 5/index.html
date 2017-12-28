@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zadanie 5</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+	<h1>Zadanie 5 - Formularz</h1>
+	<h3>Travel reservation form</h3>
+<div class="border">
+	<form>
+		<span>*denotes mandatory</span><br>
+
+		<label for="name">Full Name*: </label><br>
+			<input type="text" name="name" placeholder="Your first and last name"><br>
+
+		<label for="email">Email address*: </label><br>
+			<input type="email" name="email" placeholder="name@sth.com"><br>
+
+		<label for="board">Board Basis</label></br>
+			<select name="board">
+				<option value="allInclusive">All inclusive</option>
+				<option value="breakfast">Breakfast</option>
+				<option value="fullBoard">Full board</option>
+				<option value="halfBoard">Half board</option>
+				<option value="noBoard">No board</option>
+			</select><br>
+
+		<label for="date">Arrival date*: </label><br>
+			<input type="date" name="date"><br>
+
+		<label for="persons">Number of Persons*: </label><br>
+			<input type="text (or other)" name="persons" placeholder="e.g. 2/Two"><br>
+
+		<label for="check">What would you want to avail?*</label><br>
+			<input type="checkbox" name="check" placeholder="boarding">Boarding<br>
+			<input type="checkbox" name="check" placeholder="fooding">Fooding</br>
+			<input type="checkbox" name="check" placeholder="sightSeeing">Sight seeing</br>
+
+		<label for="code">Discount Coupon Code: </label><br>
+			<input type="text (or other)" name="code" placeholder="Unknown_type"><br>
+
+		<label for="terms">Terms and conditions*</label><br>
+			<input type="radio" name="terms" value="agree" checked>I agree
+			<input type="radio" name="terms" value="disagree">I disagree<br>
+
+			<input type="button" value="Complete reservation">
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+body {
+	background-color: grey;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+h1 {
+	text-align: center;
+}
+
+input {
+	padding: 10px;
+	border-radius: 5px;
+}
+
+button {
+	padding: 10px;
+	border-radius: 5px;
+	margin: 10px;
+	font-weight: bold;
+}
+
+#myTable {
+	padding: 5px;
+	margin: auto;
+}
+
+td {
+	border: 1px solid black;
+}
+

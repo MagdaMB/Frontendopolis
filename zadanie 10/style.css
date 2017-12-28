@@ -1,0 +1,28 @@
+body {
+	background-color: #dfbf9f;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+}
+
+ol li:first-child {
+	color: blue;
+	text-decoration: underline;
+}
+
+ul li {
+	font-weight: bold;
+}
+
+ol li {
+  font-weight: normal;
+}
+
+span {
+  text-decoration: underline;
+  color: blue;
+}

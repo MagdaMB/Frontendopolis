@@ -1,0 +1,33 @@
+body {
+	background-color: #dfbf9f;
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	width: 100%;
+}
+
+h1, h3, form {
+	text-align: center;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+form {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+input {
+	padding: 5px;
+	text-align: center;
+	margin: 5px 0 5px 0;
+	border-radius: 5px;
+}
+
+.border {
+	border: 3px solid #cc9966;
+	border-radius: 5px;
+	max-width: 60%;
+	margin: 0 auto;
+}
