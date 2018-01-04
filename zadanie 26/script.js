@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function (){
 
 		button2.addEventListener('click', function() {
 			
-			var val[]= new  = document.querySelectorAll("input.wartosc");
+			var val = document.getElementsByClassName("wartosc").val;
 			console.log(val);
 
 
