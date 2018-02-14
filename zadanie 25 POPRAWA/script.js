@@ -1,49 +1,41 @@
 document.addEventListener("DOMContentLoaded", function() {	
-	/*var pierwszy;
-	var poprzedni;
-	var nastepny;
-	var klik = 1;
-
-		addEventListener('click', function(event) {
-			
-			klik++;
-
-			if (klik % 2 == 0) 
-			{
-			pierwszy = event.target;
-			poprzedni = pierwszy.previousElementSibling;
-			nastepny = pierwszy.nextElementSibling;
-
-			pierwszy.className = "first";
-			poprzedni.className = "previous";
-			nastepny.className = "next";
-		    } 
-
-			if (klik % 2 != 0)
-			{
-			pierwszy.className = "reset";
-			poprzedni.className = "reset";
-			nastepny.className = "reset";
-		    }
-
-		})*/
-		
-var x = document.querySelector("li");
-
-		for(var i=0; i<=x.length; i++) {
+	
+var x = document.querySelectorAll("li");
+console.log(x);
+		for(var i=0; i<x.length; i++) {
 				
 				x[i].addEventListener("click", function(event) {
-		   		
-			   	var clicked = event.target;
-			   	var poprzedni = clicked.previousElementSibling;
-			   	var nastepny = clicked.previousElementSibling;
+			   		
+				   	var clicked = event.target;
+				   	console.log(clicked)
+				   	var poprzedni = clicked.previousElementSibling;
+				   	console.log(poprzedni)
+				   	var nastepny = clicked.nextElementSibling;
+				   	console.log(nastepny)
 
-			   	clicked.classList.add("active");
-			 	poprzedni.classList.add("previous");
-			 	nastepny.classList.add("next");	
 
+				   	if(i%2===0) {
+				   		clicked.classList.add("lightGrey")
+				   	} else {
+				   		clicked.classList.add("darkGrey")
+				   	}
 
+				   	if (clicked.classList.contains("active")) {
+				   		clicked.classList.remove("active");
+					 	poprzedni.classList.remove("previous");
+					 	nastepny.classList.remove("next");
+					 	clicked.classList.remove("lightGrey");
+					 	clicked.classList.remove("darkGrey");
+
+				   	} else {
+				   		clicked.classList.add("active");
+					 	poprzedni.classList.add("previous");
+					 	nastepny.classList.add("next");	
+				   	}
+				   	
+				   	
 		});
+
 			}
 	})
 

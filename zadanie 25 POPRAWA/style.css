@@ -7,12 +7,14 @@ body {
 h1 {
 	text-align: center;
 }
-
-.active li:nth-of-type(odd) {
+.active {
+	color: green;
+}
+.lightGrey {
 	background-color: #4d4d4d;
 }
 
-.active li:nth-of-type(even) {
+.darkGrey {
 	background-color: #f2f2f2;
 }
 
